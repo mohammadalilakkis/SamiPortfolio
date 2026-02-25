@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Computer Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <nav class="nav">
+      <a href="#hero" class="nav-logo">Sami Dellin</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <p class="hero-name">Sami Dellin</p>
+        <p class="hero-label">Computer Engineer</p>
+        <h1 class="hero-title">
+          <span class="line">Building</span>
+          <span class="line accent">Systems</span>
+          <span class="line">That Scale</span>
+        </h1>
+        <p class="hero-desc">Software architecture, distributed systems & clean code. Crafting robust solutions at the intersection of hardware and software.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Work</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="grid-bg" aria-hidden="true"></div>
+        <div class="hero-badge">
+          <span class="badge-num">10+</span>
+          <span class="badge-text">Years Experience</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <span class="section-label">About</span>
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 class="section-title">Engineering with <em>precision</em></h2>
+            <p class="about-lead">I design and implement systems that are reliable, performant, and maintainable—from embedded firmware to cloud-native applications.</p>
+            <p>With a foundation in computer engineering, I bridge hardware understanding and software excellence. I focus on clean architecture, testability, and long-term maintainability.</p>
+            <ul class="about-highlights">
+              <li>B.S. / M.S. Computer Engineering</li>
+              <li>Full-stack & systems development</li>
+              <li>Cloud & DevOps practices</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <div class="about-image-frame">
+              <!-- Replace photo.jpg with your image filename. Put the image in the same folder as index.html -->
+              <img src="photo.jpg" alt="Sami Dellin" class="about-photo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <span class="section-label">Skills</span>
+        <h2 class="section-title">Technical <em>expertise</em></h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-icon">⌘</span>
+            <h3>Languages</h3>
+            <p>C/C++, Python, Java, JavaScript/TypeScript, Go, Rust</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">◇</span>
+            <h3>Systems & Cloud</h3>
+            <p>Linux, Docker, Kubernetes, AWS, GCP, CI/CD</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">◈</span>
+            <h3>Software</h3>
+            <p>React, Node.js, SQL/NoSQL, REST/GraphQL, Microservices</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">◎</span>
+            <h3>Tools & Methods</h3>
+            <p>Git, Agile, System Design, Testing, Documentation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <span class="section-label">Projects</span>
+        <h2 class="section-title">Selected <em>work</em></h2>
+        <div class="projects-list">
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-year">2024</span>
+              <span class="project-tags">System Design · Backend</span>
+            </div>
+            <h3 class="project-title">Distributed Task Queue</h3>
+            <p class="project-desc">High-throughput, fault-tolerant task queue with at-least-once delivery and horizontal scaling.</p>
+            <a href="#" class="project-link">View project →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-year">2024</span>
+              <span class="project-tags">Full-stack · API</span>
+            </div>
+            <h3 class="project-title">Real-time Analytics Dashboard</h3>
+            <p class="project-desc">Streaming data pipeline and React dashboard with WebSocket updates and role-based access.</p>
+            <a href="#" class="project-link">View project →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="project-year">2023</span>
+              <span class="project-tags">Embedded · C</span>
+            </div>
+            <h3 class="project-title">Embedded RTOS Module</h3>
+            <p class="project-desc">Real-time sensor fusion and control loop on ARM Cortex-M with deterministic latency.</p>
+            <a href="#" class="project-link">View project →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="container">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">Career <em>timeline</em></h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">2022 – Present</span>
+            <div class="timeline-content">
+              <h3>Senior Software Engineer</h3>
+              <p class="timeline-company">Tech Company</p>
+              <p>Leading system design and implementation for scalable services. Mentoring engineers and defining best practices.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">2019 – 2022</span>
+            <div class="timeline-content">
+              <h3>Software Engineer</h3>
+              <p class="timeline-company">Product Company</p>
+              <p>Full-stack development, API design, and deployment automation. Improved reliability and reduced incident response time.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">2017 – 2019</span>
+            <div class="timeline-content">
+              <h3>Junior Developer</h3>
+              <p class="timeline-company">Startup</p>
+              <p>Backend and tooling development. Contributed to core services and internal tools.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's <em>connect</em></h2>
+        <p class="contact-lead">Open to consulting, full-time roles, and technical discussions. Reach out via email or LinkedIn.</p>
+        <div class="contact-links">
+          <a href="mailto:samir88.2r@gmail.com" class="contact-link">
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">samir88.2r@gmail.com</span>
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/in/yourprofile</span>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/yourusername</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
